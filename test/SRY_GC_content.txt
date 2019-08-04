@@ -1,0 +1,11 @@
+Sequence ID	:	NG_011751.1 Homo sapiens sex determining region Y (SRY), RefSeqGene on chromosome Y
+
+Counts of A	:	2391
+
+Counts of T	:	2530
+
+Counts of G	:	1423
+
+Counts of C	:	1553
+
+GC Content	:	37.69%
