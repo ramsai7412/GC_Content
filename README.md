@@ -18,4 +18,4 @@ The GC Content can be used in
 to use this tool, just type 'python GC_content_calc.py /path/to/fasta/file'
 '''
 ## Example
-I have provided an example file of SRY Gene in the test folder. use this file to test the script for better understanding.
+I have provided an example file of SRY Gene in the example folder. use this file to test the script for better understanding.
