@@ -1,6 +1,17 @@
 import os
 import sys
-in_file = sys.argv[1]
+import argparse
+#Developer Info
+print ("\n*********************************************************************************************************")
+print ("* Python script to calculate GC content from a given fasta file\t\t\t\t\t\t*")
+print ("* Script Developed by\t:\tRam Sai Nanduri\t\t\t\t\t\t\t\t*")
+print ("*********************************************************************************************************")
+##Argument parser
+parser = argparse.ArgumentParser(description="Calculate GC content.")
+parser.add_argument("-f", "--fasta", metavar="fasta", help="Input fasta file", type=str)
+parser.add_argument("-v", "--version", help="Program's version", action='version', version='%(prog)s 1.0')
+args = parser.parse_args()
+in_file = fasta
 file_name = os.path.basename(in_file).split('.')[0]
 file_path = os.path.abspath(os.path.dirname(in_file))
 try:
