@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser(description="Calculate GC content.")
 parser.add_argument("-f", "--fasta", metavar="fasta", help="Input fasta file", type=str)
 parser.add_argument("-v", "--version", help="Program's version", action='version', version='%(prog)s 1.0')
 args = parser.parse_args()
-in_file = fasta
+in_file = args.fasta
 file_name = os.path.basename(in_file).split('.')[0]
 file_path = os.path.abspath(os.path.dirname(in_file))
 try:
